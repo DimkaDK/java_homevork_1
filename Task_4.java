@@ -48,6 +48,7 @@ public class Task_4 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите уравнение вида q + w = e, q, w, e >= 0. Некоторые цифры могут быть заменены знаком вопроса, например 2? + ?5 = 69: ");
         String str = scanner.nextLine();
+        scanner.close();
 
         // Определение переменных
 
